@@ -4,16 +4,15 @@ const mongoose = require('mongoose')
 const app = express()
 app.use(express.json())
 
+// cross origin
 var cors = require('cors')
+// client port
 const PORT = process.env.PORT || '8000'
+// mongoDB location
 const MONGO_URI = process.env.MONGO_URI ||'mongodb://localhost/PawGo'
 
-const connectionParams = {
-    useNewUrlParser: true,
-    useUnifiedTopology: true
-};
-
-mongoose.connect(MONGO_URI, connectionParams )
+// connect to the MongoDB
+mongoose.connect(MONGO_URI, {useNewUrlParser: true})
     .then((response) => {
         console.log('Connected to database!')
     })
@@ -21,6 +20,7 @@ mongoose.connect(MONGO_URI, connectionParams )
         console.error(`Error connecting to the database.\n${err}`)
     })
 
+// deal with cross origin
 mongoose.Promise = Promise;
 app.use(cors());
 app.use(function(req, res, next) {
@@ -28,6 +28,7 @@ app.use(function(req, res, next) {
     next();
 });
 
+// listen to the client port
 var listener = app.listen(PORT, () => {
     console.log('Listening on port ' + listener.address().port);
 });

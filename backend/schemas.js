@@ -2,7 +2,6 @@ const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 const ObjectId = mongoose.Types.ObjectId;
 const Date = mongoose.Schema.Types.Date;
-const Mixed = mongoose.Schema.Types.Mixed;
 
 // Schemas
 const UserSchema = new Schema({
