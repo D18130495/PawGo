@@ -3,12 +3,12 @@ import 'dart:io';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_storage/firebase_storage.dart';
-import 'package:pedala_mi/assets/custom_colors.dart';
-import 'package:pedala_mi/models/loggedUser.dart';
-import 'package:pedala_mi/size_config.dart';
+import 'package:PawGo/assets/custom_colors.dart';
+import 'package:PawGo/models/loggedUser.dart';
+import 'package:PawGo/size_config.dart';
 import 'package:flutter/material.dart';
-import 'package:pedala_mi/utils/get_image.dart';
-import 'package:pedala_mi/utils/username_check.dart';
+import 'package:PawGo/utils/get_image.dart';
+import 'package:PawGo/utils/username_check.dart';
 import 'package:permission_handler/permission_handler.dart';
 import 'package:uuid/uuid.dart';
 

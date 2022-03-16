@@ -4,8 +4,8 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/foundation.dart' show kIsWeb;
 import 'package:flutter/material.dart';
 import 'package:google_sign_in/google_sign_in.dart';
-import 'package:pedala_mi/models/loggedUser.dart';
-import 'package:pedala_mi/routes/username_insert_page.dart';
+import 'package:PawGo/models/loggedUser.dart';
+import 'package:PawGo/routes/username_insert_page.dart';
 import 'mongodb_service.dart';
 
 

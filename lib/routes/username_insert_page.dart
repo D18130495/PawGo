@@ -6,8 +6,8 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' show get;
 import 'package:path_provider/path_provider.dart';
-import 'package:pedala_mi/assets/custom_colors.dart';
-import 'package:pedala_mi/utils/username_check.dart';
+import 'package:PawGo/assets/custom_colors.dart';
+import 'package:PawGo/utils/username_check.dart';
 
 class InsertUsernameScreen extends StatefulWidget {
   const InsertUsernameScreen({Key? key, required User user})

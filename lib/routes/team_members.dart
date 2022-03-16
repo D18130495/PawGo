@@ -1,6 +1,6 @@
-import 'package:pedala_mi/size_config.dart';
+import 'package:PawGo/size_config.dart';
 import 'package:flutter/material.dart';
-import 'package:pedala_mi/models/team.dart';
+import 'package:PawGo/models/team.dart';
 
 class TeamMembers extends StatefulWidget {
   TeamMembers({Key? key, required this.team}) : super(key: key);

@@ -6,9 +6,9 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_storage/firebase_storage.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:pedala_mi/models/loggedUser.dart';
-import 'package:pedala_mi/services/mongodb_service.dart';
-import 'package:pedala_mi/widget/custom_alert_dialog.dart';
+import 'package:PawGo/models/loggedUser.dart';
+import 'package:PawGo/services/mongodb_service.dart';
+import 'package:PawGo/widget/custom_alert_dialog.dart';
 import 'package:uuid/uuid.dart';
 
 

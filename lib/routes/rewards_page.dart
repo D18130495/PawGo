@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
-import 'package:pedala_mi/models/loggedUser.dart';
-import 'package:pedala_mi/models/reward.dart';
-import 'package:pedala_mi/routes/redeemed_rewards_page.dart';
-import 'package:pedala_mi/services/mongodb_service.dart';
-import 'package:pedala_mi/size_config.dart';
-import 'package:pedala_mi/widget/reward_item.dart';
+import 'package:PawGo/models/loggedUser.dart';
+import 'package:PawGo/models/reward.dart';
+import 'package:PawGo/routes/redeemed_rewards_page.dart';
+import 'package:PawGo/services/mongodb_service.dart';
+import 'package:PawGo/size_config.dart';
+import 'package:PawGo/widget/reward_item.dart';
 import 'package:persistent_bottom_nav_bar/persistent-tab-view.dart';
 
 class RewardPage extends StatefulWidget {

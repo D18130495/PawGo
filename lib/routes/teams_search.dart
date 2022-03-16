@@ -1,16 +1,16 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:pedala_mi/assets/custom_colors.dart';
-import 'package:pedala_mi/models/loggedUser.dart';
-import 'package:pedala_mi/models/team.dart';
-import 'package:pedala_mi/routes/create_team.dart';
-import 'package:pedala_mi/routes/teams_page.dart';
-import 'package:pedala_mi/services/mongodb_service.dart';
-import 'package:pedala_mi/size_config.dart';
-import 'package:pedala_mi/widget/teams_search_button.dart';
+import 'package:PawGo/assets/custom_colors.dart';
+import 'package:PawGo/models/loggedUser.dart';
+import 'package:PawGo/models/team.dart';
+import 'package:PawGo/routes/create_team.dart';
+import 'package:PawGo/routes/teams_page.dart';
+import 'package:PawGo/services/mongodb_service.dart';
+import 'package:PawGo/size_config.dart';
+import 'package:PawGo/widget/teams_search_button.dart';
 import 'package:persistent_bottom_nav_bar/persistent-tab-view.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:pedala_mi/routes/team_members.dart';
+import 'package:PawGo/routes/team_members.dart';
 
 class TeamsSearchPage extends StatefulWidget {
   TeamsSearchPage({Key? key}) : super(key: key);

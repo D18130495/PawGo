@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:location/location.dart';
-import 'package:pedala_mi/routes/events_page.dart';
-import 'package:pedala_mi/routes/rewards_page.dart';
-import 'package:pedala_mi/routes/teams_search.dart';
+import 'package:PawGo/routes/events_page.dart';
+import 'package:PawGo/routes/rewards_page.dart';
+import 'package:PawGo/routes/teams_search.dart';
 import 'package:permission_handler/permission_handler.dart';
 import 'package:persistent_bottom_nav_bar/persistent-tab-view.dart';
 

@@ -2,7 +2,7 @@ import 'dart:async';
 import 'dart:convert';
 
 import 'package:http/http.dart' as http;
-import 'package:pedala_mi/utils/mobile_library.dart';
+import 'package:PawGo/utils/mobile_library.dart';
 
 
 

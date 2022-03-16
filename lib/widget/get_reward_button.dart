@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:pedala_mi/assets/custom_colors.dart';
-import 'package:pedala_mi/models/loggedUser.dart';
-import 'package:pedala_mi/models/reward.dart';
-import 'package:pedala_mi/services/mongodb_service.dart';
+import 'package:PawGo/assets/custom_colors.dart';
+import 'package:PawGo/models/loggedUser.dart';
+import 'package:PawGo/models/reward.dart';
+import 'package:PawGo/services/mongodb_service.dart';
 
 class GetRewardButton extends StatefulWidget {
   const GetRewardButton(

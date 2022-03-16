@@ -1,13 +1,13 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:pedala_mi/assets/custom_colors.dart';
-import 'package:pedala_mi/models/loggedUser.dart';
-import 'package:pedala_mi/routes/username_insert_page.dart';
-import 'package:pedala_mi/services/authentication.dart';
-import 'package:pedala_mi/services/mongodb_service.dart';
+import 'package:PawGo/assets/custom_colors.dart';
+import 'package:PawGo/models/loggedUser.dart';
+import 'package:PawGo/routes/username_insert_page.dart';
+import 'package:PawGo/services/authentication.dart';
+import 'package:PawGo/services/mongodb_service.dart';
 import 'package:flutter/foundation.dart' show kIsWeb;
-import 'package:pedala_mi/services/web_authentication.dart';
+import 'package:PawGo/services/web_authentication.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class GoogleSignInButton extends StatefulWidget {

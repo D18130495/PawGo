@@ -2,12 +2,12 @@ import 'dart:convert';
 import 'dart:io';
 
 import 'package:flutter_test/flutter_test.dart';
-import 'package:pedala_mi/models/event.dart';
-import 'package:pedala_mi/models/loggedUser.dart';
-import 'package:pedala_mi/models/reward.dart';
-import 'package:pedala_mi/models/ride.dart';
-import 'package:pedala_mi/models/team.dart';
-import 'package:pedala_mi/services/mongodb_service.dart';
+import 'package:PawGo/models/event.dart';
+import 'package:PawGo/models/loggedUser.dart';
+import 'package:PawGo/models/reward.dart';
+import 'package:PawGo/models/ride.dart';
+import 'package:PawGo/models/team.dart';
+import 'package:PawGo/services/mongodb_service.dart';
 
 MongoDB instance = MongoDB.instance;
 

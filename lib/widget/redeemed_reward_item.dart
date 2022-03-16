@@ -1,7 +1,7 @@
 import 'dart:convert';
 
 import 'package:flutter/material.dart';
-import 'package:pedala_mi/models/reward.dart';
+import 'package:PawGo/models/reward.dart';
 
 class RedeemedRewardItem extends StatefulWidget {
   const RedeemedRewardItem({

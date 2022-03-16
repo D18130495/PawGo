@@ -3,13 +3,13 @@ import 'dart:convert';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:http/http.dart' as http;
 import 'package:intl/intl.dart';
-import 'package:pedala_mi/models/badge.dart';
-import 'package:pedala_mi/models/event.dart';
-import 'package:pedala_mi/models/loggedUser.dart';
-import 'package:pedala_mi/models/statistics.dart';
-import 'package:pedala_mi/models/team.dart';
-import 'package:pedala_mi/models/ride.dart';
-import 'package:pedala_mi/models/reward.dart';
+import 'package:PawGo/models/badge.dart';
+import 'package:PawGo/models/event.dart';
+import 'package:PawGo/models/loggedUser.dart';
+import 'package:PawGo/models/statistics.dart';
+import 'package:PawGo/models/team.dart';
+import 'package:PawGo/models/ride.dart';
+import 'package:PawGo/models/reward.dart';
 import 'package:tuple/tuple.dart';
 
 class MongoDB {

@@ -1,16 +1,16 @@
 import 'package:background_location/background_location.dart';
 import 'package:flutter_osm_plugin/flutter_osm_plugin.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:pedala_mi/models/ride.dart' as m_ride;
-import 'package:pedala_mi/models/loggedUser.dart';
-import 'package:pedala_mi/routes/ride_complete_page.dart';
-import 'package:pedala_mi/utils/mobile_library.dart';
+import 'package:PawGo/models/ride.dart' as m_ride;
+import 'package:PawGo/models/loggedUser.dart';
+import 'package:PawGo/routes/ride_complete_page.dart';
+import 'package:PawGo/utils/mobile_library.dart';
 import 'package:permission_handler/permission_handler.dart';
 import 'package:persistent_bottom_nav_bar/persistent-tab-view.dart';
-import 'package:pedala_mi/services/mongodb_service.dart';
+import 'package:PawGo/services/mongodb_service.dart';
 import 'package:location/location.dart' as loc;
-import 'package:pedala_mi/widget/custom_alert_dialog.dart';
-import 'package:pedala_mi/services/external_api_service.dart';
+import 'package:PawGo/widget/custom_alert_dialog.dart';
+import 'package:PawGo/services/external_api_service.dart';
 
 extension LocationDataExt on loc.LocationData {
   GeoPoint toGeoPoint() {

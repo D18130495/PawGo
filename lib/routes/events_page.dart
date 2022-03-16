@@ -1,13 +1,13 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:pedala_mi/assets/custom_colors.dart';
-import 'package:pedala_mi/models/event.dart';
-import 'package:pedala_mi/models/loggedUser.dart';
-import 'package:pedala_mi/services/mongodb_service.dart';
-import 'package:pedala_mi/size_config.dart';
+import 'package:PawGo/assets/custom_colors.dart';
+import 'package:PawGo/models/event.dart';
+import 'package:PawGo/models/loggedUser.dart';
+import 'package:PawGo/services/mongodb_service.dart';
+import 'package:PawGo/size_config.dart';
 import 'package:flutter/material.dart';
-import 'package:pedala_mi/utils/mobile_library.dart';
-import 'package:pedala_mi/widget/event_item.dart';
+import 'package:PawGo/utils/mobile_library.dart';
+import 'package:PawGo/widget/event_item.dart';
 
 class EventsPage extends StatefulWidget {
   EventsPage({Key? key}) : super(key: key);

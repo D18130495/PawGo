@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:pedala_mi/widget/google_sign_in_button.dart';
+import 'package:PawGo/widget/google_sign_in_button.dart';
 
 class SignInScreen extends StatefulWidget {
   @override

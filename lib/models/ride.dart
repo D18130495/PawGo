@@ -1,5 +1,5 @@
 import 'package:intl/intl.dart';
-import 'package:pedala_mi/services/mongodb_service.dart';
+import 'package:PawGo/services/mongodb_service.dart';
 
 class GeoPoint {
   final double longitude;

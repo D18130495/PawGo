@@ -1,4 +1,4 @@
-import 'package:pedala_mi/services/mongodb_service.dart';
+import 'package:PawGo/services/mongodb_service.dart';
 
 class Reward {
   String id;

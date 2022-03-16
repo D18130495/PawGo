@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:pedala_mi/models/badge.dart';
-import 'package:pedala_mi/models/event.dart';
-import 'package:pedala_mi/models/reward.dart';
-import 'package:pedala_mi/models/ride.dart';
-import 'package:pedala_mi/models/statistics.dart';
+import 'package:PawGo/models/badge.dart';
+import 'package:PawGo/models/event.dart';
+import 'package:PawGo/models/reward.dart';
+import 'package:PawGo/models/ride.dart';
+import 'package:PawGo/models/statistics.dart';
 import 'team.dart';
 
 class LoggedUser extends ChangeNotifier {

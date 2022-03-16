@@ -1,11 +1,11 @@
-import 'package:pedala_mi/models/loggedUser.dart';
-import 'package:pedala_mi/routes/team_members.dart';
-import 'package:pedala_mi/routes/your_events_page.dart';
-import 'package:pedala_mi/size_config.dart';
+import 'package:PawGo/models/loggedUser.dart';
+import 'package:PawGo/routes/team_members.dart';
+import 'package:PawGo/routes/your_events_page.dart';
+import 'package:PawGo/size_config.dart';
 import 'package:flutter/material.dart';
 import 'package:persistent_bottom_nav_bar/persistent-tab-view.dart';
-import 'package:pedala_mi/models/team.dart';
-import 'package:pedala_mi/services/mongodb_service.dart';
+import 'package:PawGo/models/team.dart';
+import 'package:PawGo/services/mongodb_service.dart';
 
 import 'create_team_event.dart';
 import 'events_enroll.dart';

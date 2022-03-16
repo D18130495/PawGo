@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_osm_interface/flutter_osm_interface.dart' as osm;
 import 'package:flutter_osm_plugin/flutter_osm_plugin.dart' as p_osm;
 
-import 'package:pedala_mi/models/ride.dart' as m_ride;
-import 'package:pedala_mi/utils/mobile_library.dart';
+import 'package:PawGo/models/ride.dart' as m_ride;
+import 'package:PawGo/utils/mobile_library.dart';
 import 'package:persistent_bottom_nav_bar/persistent-tab-view.dart';
 import 'ride_complete_page.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';

@@ -2,9 +2,9 @@ import 'dart:collection';
 
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:pedala_mi/models/loggedUser.dart';
-import 'package:pedala_mi/models/team.dart';
-import 'package:pedala_mi/services/mongodb_service.dart';
+import 'package:PawGo/models/loggedUser.dart';
+import 'package:PawGo/models/team.dart';
+import 'package:PawGo/services/mongodb_service.dart';
 
 class TeamSearchButton extends StatefulWidget {
   const TeamSearchButton({Key? key, required List<Team> teamsFound,}) : teamsFound=teamsFound,super(key: key);

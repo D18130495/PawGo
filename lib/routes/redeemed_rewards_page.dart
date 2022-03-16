@@ -1,9 +1,9 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:pedala_mi/models/reward.dart';
-import 'package:pedala_mi/services/mongodb_service.dart';
-import 'package:pedala_mi/size_config.dart';
-import 'package:pedala_mi/widget/redeemed_reward_item.dart';
+import 'package:PawGo/models/reward.dart';
+import 'package:PawGo/services/mongodb_service.dart';
+import 'package:PawGo/size_config.dart';
+import 'package:PawGo/widget/redeemed_reward_item.dart';
 
 class RedeemedRewardsPage extends StatefulWidget {
   const RedeemedRewardsPage({Key? key}) : super(key: key);

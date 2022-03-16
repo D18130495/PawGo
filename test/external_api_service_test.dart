@@ -1,6 +1,6 @@
 
 import 'package:flutter_test/flutter_test.dart';
-import 'package:pedala_mi/services/external_api_service.dart';
+import 'package:PawGo/services/external_api_service.dart';
 
 AirQuality airQualityInstance = AirQuality.instance;
 Weather weatherInstance = Weather.instance;

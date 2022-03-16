@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:pedala_mi/assets/custom_colors.dart';
-import 'package:pedala_mi/models/event.dart';
-import 'package:pedala_mi/models/loggedUser.dart';
-import 'package:pedala_mi/models/team.dart';
-import 'package:pedala_mi/services/mongodb_service.dart';
-import 'package:pedala_mi/size_config.dart';
-import 'package:pedala_mi/utils/mobile_library.dart';
+import 'package:PawGo/assets/custom_colors.dart';
+import 'package:PawGo/models/event.dart';
+import 'package:PawGo/models/loggedUser.dart';
+import 'package:PawGo/models/team.dart';
+import 'package:PawGo/services/mongodb_service.dart';
+import 'package:PawGo/size_config.dart';
+import 'package:PawGo/utils/mobile_library.dart';
 import 'package:search_choices/search_choices.dart';
-import 'package:pedala_mi/widget/enroll_item.dart';
+import 'package:PawGo/widget/enroll_item.dart';
 
 class EnrollEvent extends StatefulWidget {
   const EnrollEvent({Key? key, required this.actualTeam}) : super(key: key);

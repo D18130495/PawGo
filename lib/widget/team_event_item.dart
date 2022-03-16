@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:pedala_mi/models/event.dart';
-import 'package:pedala_mi/models/team.dart';
-import 'package:pedala_mi/services/mongodb_service.dart';
-import 'package:pedala_mi/size_config.dart';
-import 'package:pedala_mi/utils/date_time_ext.dart';
+import 'package:PawGo/models/event.dart';
+import 'package:PawGo/models/team.dart';
+import 'package:PawGo/services/mongodb_service.dart';
+import 'package:PawGo/size_config.dart';
+import 'package:PawGo/utils/date_time_ext.dart';
 import 'package:search_choices/search_choices.dart';
 
 class TeamEventItem extends StatefulWidget {

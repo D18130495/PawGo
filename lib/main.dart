@@ -1,5 +1,5 @@
-import 'package:pedala_mi/utils/mobile_library.dart'
-    if (dart.library.html) 'package:pedala_mi/utils/web_library.dart';
+import 'package:PawGo/utils/mobile_library.dart'
+    if (dart.library.html) 'package:PawGo/utils/web_library.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();

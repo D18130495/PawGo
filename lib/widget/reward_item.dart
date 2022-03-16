@@ -1,8 +1,8 @@
 import 'dart:convert';
 
 import 'package:flutter/material.dart';
-import 'package:pedala_mi/models/reward.dart';
-import 'package:pedala_mi/widget/get_reward_button.dart';
+import 'package:PawGo/models/reward.dart';
+import 'package:PawGo/widget/get_reward_button.dart';
 
 class RewardItem extends StatefulWidget {
   const RewardItem({Key? key, required List<Reward> rewards, required notifyParent}) : rewards=rewards,notifyParent=notifyParent,super(key: key);

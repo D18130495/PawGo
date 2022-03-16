@@ -1,6 +1,6 @@
 import 'package:flutter/foundation.dart';
-import 'package:pedala_mi/models/mongoUser.dart';
-import 'package:pedala_mi/services/mongodb_service.dart';
+import 'mongoUser.dart';
+import 'package:PawGo/services/mongodb_service.dart';
 
 class Team extends ChangeNotifier {
   String id;

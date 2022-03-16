@@ -1,13 +1,13 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-import 'package:pedala_mi/models/event.dart';
-import 'package:pedala_mi/models/loggedUser.dart';
-import 'package:pedala_mi/models/team.dart';
-import 'package:pedala_mi/routes/event_ranking.dart';
-import 'package:pedala_mi/services/mongodb_service.dart';
-import 'package:pedala_mi/size_config.dart';
-import 'package:pedala_mi/utils/date_time_ext.dart';
+import 'package:PawGo/models/event.dart';
+import 'package:PawGo/models/loggedUser.dart';
+import 'package:PawGo/models/team.dart';
+import 'package:PawGo/routes/event_ranking.dart';
+import 'package:PawGo/services/mongodb_service.dart';
+import 'package:PawGo/size_config.dart';
+import 'package:PawGo/utils/date_time_ext.dart';
 import 'package:persistent_bottom_nav_bar/persistent-tab-view.dart';
 
 class EnrollItem extends StatefulWidget {

@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:pedala_mi/assets/custom_colors.dart';
-import 'package:pedala_mi/routes/sign_in_page.dart';
+import 'package:PawGo/assets/custom_colors.dart';
+import 'package:PawGo/routes/sign_in_page.dart';
 
-import 'package:pedala_mi/services/authentication.dart';
+import 'package:PawGo/services/authentication.dart';
 
 class SplashScreen extends StatefulWidget {
   @override

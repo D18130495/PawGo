@@ -1,5 +1,5 @@
-import 'package:pedala_mi/models/statistics.dart';
-import 'package:pedala_mi/models/badge.dart';
+import 'package:PawGo/models/statistics.dart';
+import 'package:PawGo/models/badge.dart';
 
 class MongoUser {
   String userId;
