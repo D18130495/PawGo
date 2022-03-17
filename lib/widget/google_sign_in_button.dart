@@ -21,19 +21,24 @@ class _GoogleSignInButtonState extends State<GoogleSignInButton> {
   @override
   void initState() {
     super.initState();
+
     if(kIsWeb)
     {
       WidgetsBinding.instance!.addPostFrameCallback((timeStamp) async {
         SharedPreferences prefs = await SharedPreferences.getInstance();
-        bool loggedIn=prefs.getBool("loggedIn")??false;
+        // bool loggedIn=prefs.getBool("loggedIn")??false;
+        bool loggedIn = true;
+
         if(loggedIn)
           {
             setState(() {
-              _isSigningIn=true;
+              _isSigningIn = true;
             });
+
             await webSignInWithGoogle(context: context);
+
             setState(() {
-              _isSigningIn=false;
+              _isSigningIn = false;
             });
           }
       });

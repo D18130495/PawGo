@@ -9,7 +9,9 @@ import 'mongodb_service.dart';
 
 Future<void> webSignInWithGoogle({required BuildContext context}) async {
   User? user;
+
   GoogleAuthProvider authProvider = GoogleAuthProvider();
+
   try {
     final UserCredential userCredential =
         await FirebaseAuth.instance.signInWithPopup(authProvider);
@@ -17,22 +19,24 @@ Future<void> webSignInWithGoogle({required BuildContext context}) async {
   } catch (e) {
     print(e);
   }
+
   if (user != null) {
     CollectionReference usersCollection =
         FirebaseFirestore.instance.collection("Users");
     QuerySnapshot querySnapshot =
         await usersCollection.where("Mail", isEqualTo: user.email).get();
-    if (querySnapshot.docs.isNotEmpty) {
-      String? username = querySnapshot.docs[0].get("Username");
+    if (querySnapshot.docs.isEmpty) {
+      // String? username = querySnapshot.docs[0].get("Username");
+      String? username = "123";
       if (username != null) {
         SharedPreferences prefs = await SharedPreferences.getInstance();
         await prefs.setBool("loggedIn", true);
         LoggedUser.initInstance(
             user.uid, user.photoURL ?? "", user.email!, username);
         await MongoDB.instance.initUser(user.uid);
-        LoggedUser.instance!.setRideHistory(
-          await MongoDB.instance.getAllRidesFromUser(LoggedUser.instance!.userId));
-        print("userId of the logged user is: " + LoggedUser.instance!.userId);
+        // LoggedUser.instance!.setRideHistory(
+        //   await MongoDB.instance.getAllRidesFromUser(LoggedUser.instance!.userId));
+        // print("userId of the logged user is: " + LoggedUser.instance!.userId);
         Navigator.pushNamedAndRemoveUntil(
             context, '/web_dashboard', (route) => false);
       }
