@@ -23,6 +23,7 @@
 |                    |                          |                                                |
 |                    |                          |                                                |
 |                    |                          |                                                |
+|                    |                          |                                                |
 
 ## Project structure
 
